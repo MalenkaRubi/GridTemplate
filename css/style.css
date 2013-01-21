@@ -1,0 +1,32 @@
+body              { font-family:	'Futura W01 Bold'; font-weight: bold;}
+p                 { font-size: 70px; font-family: 'Futura W01 Bold'; color: white; font-weight: bold; text-align: center; padding: 5px;}
+a                 {font-size: 20px; color: white; font-weight: bold; text-decoration: none;}
+
+
+/*Header*/
+header            { width: 982px; overflow: hidden; position:fixed; top: 0; left:12%;  background-color: #01274A;}
+header  a         {font-size: 20px; color: white; font-weight: bold; text-decoration: none;}
+header  a:hover   { background-color: blue; color: white;}
+.nav              { float: right; }
+.nav a            { padding: 15px 10px; font-size: 10.8px;}
+.nav button       { padding: 10px; font-size: 10.8px;}
+
+
+/*MainBody*/
+.container        {width: 938px; margin:35px auto 50px ; }
+.col              {overflow: hidden; background-color:#01274A }
+.container a      { font-size: 20px; font-family: Arial,​Tahoma,​Helvetica,​sans-serif;}
+#live             {background-image: url("http://www.pepsi.com/frontend/images/LIVE-static-image-no-text.jpg"); }
+#for              {background-image: url("http://www.pepsi.com/frontend/images/FOR-static-image-no-text.jpg");}
+#now              {background-image: url("http://www.pepsi.com/frontend/images/NowCuesBG-medium-res.jpg") ;}
+#now p            {font-size: 115px; }
+
+
+
+
+/*Footer*/
+
+footer           {width: 938px; margin: auto; padding-top: 50px; height: 100px;}
+footer span      {color: #01274A; font-size: 9px;}
+footer a         {float: right; padding: 7px; font-size: 9px; color: #87cefa ;}
+footer a:hover   {text-decoration: underline;}
