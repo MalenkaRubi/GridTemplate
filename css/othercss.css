@@ -1,0 +1,34 @@
+body              {font-family: 	'Futura W01 Bold';}
+p                 { font-size: 70px; font-family: 'Futura W01 Bold'; color: white; font-weight: bold; text-align: center; padding: 5px;}
+a                 {font-size: 33px; color: white; font-weight: bold; text-decoration: none;}
+
+
+/*Header*/
+#header           {width: 982px; overflow: hidden; position:fixed; top: 0; left:12%;  background-color: #01274A;; }
+.headline         { width: 938px;  }
+.headline  a      {color: #dcdcdc; text-decoration: none; font: Futura W01, sans-serif; font-size: 16.2px; font-weight: bold;}
+#header  a:hover  {background-color: blue; color: white;}
+.logo             {display: inline; }
+.pulse            {display: inline; }
+.city             {display: inline;  padding: 15px 10px; font-size: 20px;}
+.date             {display: inline;  padding: 15px 10px; font-size: 20px;}
+#about            {float: right; padding: 15px 10px; font-size: 10.8px; text-align: center;}
+#pepsi            {float: right; padding: 15px 10px; font-size: 10.8px;}
+#mi               {float: right; padding: 15px 10px; font-size: 10.8px;}
+#fb               {float: right; padding: 10px; font-size: 10.8px;}
+#tw               {float: right; padding: 10px; font-size: 10.8px;}
+
+.container        {width: 938px; margin:35px auto 50px ; }
+.col              {overflow: hidden; background-color: }
+#live             {background-image: url("http://www.pepsi.com/frontend/images/LIVE-static-image-no-text.jpg"); }
+#for              {background-image: url("http://www.pepsi.com/frontend/images/FOR-static-image-no-text.jpg");}
+#now              {background-image: url("http://www.pepsi.com/frontend/images/NowCuesBG-medium-res.jpg") ; }
+#now p            {font-size: 115px; }
+
+
+/*Footer*/
+
+#footer           {width: 938px; margin: auto; padding-top: 50px; height: 100px;}
+#footer span              {color: #01274A; font-size: 9px; font-family:	'Futura W01 Bold' font-weight: bold;}
+#footer a         {float: right; padding: 7px; font-size: 9px; color: #87cefa ; font-family:	'Futura W01 Bold'; font-weight: bold;}
+#footer a:hover   {text-decoration: underline;}
